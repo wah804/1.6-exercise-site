@@ -15,7 +15,6 @@ export default function Home() {
           1.6 Exercise Site
         </h1>
         <p style={{ fontSize: '1.2rem', color: '#a0a0a0', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
-          This is a barebones Next.js static site deployed to GitHub Pages to fulfill the requirements of the exercise.
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
           <div style={{
