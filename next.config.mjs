@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/1.6-exercise-site',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

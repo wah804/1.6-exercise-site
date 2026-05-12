@@ -1,64 +1,45 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#121212',
+      color: '#ffffff',
+      fontFamily: 'system-ui, -apple-system, sans-serif'
+    }}>
+      <main style={{ textAlign: 'center', padding: '2rem' }}>
+        <h1 style={{ fontSize: '3rem', margin: '0 0 1rem 0', background: 'linear-gradient(to right, #00f2fe, #4facfe)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+          1.6 Exercise Site
+        </h1>
+        <p style={{ fontSize: '1.2rem', color: '#a0a0a0', maxWidth: '600px', margin: '0 auto 2rem auto', lineHeight: '1.6' }}>
+          This is a barebones Next.js static site deployed to GitHub Pages to fulfill the requirements of the exercise.
+        </p>
+        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+          <div style={{
+            padding: '0.8rem 1.5rem',
+            backgroundColor: '#1f1f1f',
+            border: '1px solid #333',
+            borderRadius: '8px',
+            fontSize: '1rem',
+            transition: 'all 0.2s ease-in-out',
+            cursor: 'default'
+          }}>
+            Next.js Static Export
+          </div>
+          <div style={{
+            padding: '0.8rem 1.5rem',
+            backgroundColor: '#1f1f1f',
+            border: '1px solid #333',
+            borderRadius: '8px',
+            fontSize: '1rem',
+            transition: 'all 0.2s ease-in-out',
+            cursor: 'default'
+          }}>
+            GitHub Pages
+          </div>
         </div>
       </main>
     </div>
