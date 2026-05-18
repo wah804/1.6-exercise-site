@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div style={{
@@ -43,7 +45,7 @@ export default function Home() {
         </div>
 
         <div style={{ marginTop: '3rem' }}>
-          <a href="/api-article" style={{
+          <Link href="/api-article" style={{
             display: 'inline-block',
             padding: '1rem 2rem',
             backgroundColor: '#4facfe',
@@ -55,7 +57,7 @@ export default function Home() {
             transition: 'opacity 0.2s'
           }}>
             Read New Article: Building an API
-          </a>
+          </Link>
         </div>
       </main>
     </div>
