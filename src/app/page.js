@@ -41,6 +41,22 @@ export default function Home() {
             GitHub Pages
           </div>
         </div>
+
+        <div style={{ marginTop: '3rem' }}>
+          <a href="/api-article" style={{
+            display: 'inline-block',
+            padding: '1rem 2rem',
+            backgroundColor: '#4facfe',
+            color: '#121212',
+            textDecoration: 'none',
+            borderRadius: '8px',
+            fontWeight: 'bold',
+            fontSize: '1.1rem',
+            transition: 'opacity 0.2s'
+          }}>
+            Read New Article: Building an API
+          </a>
+        </div>
       </main>
     </div>
   );
