@@ -14,7 +14,7 @@ export default function Home() {
     }}>
       <main style={{ textAlign: 'center', padding: '2rem' }}>
         <h1 style={{ fontSize: '3rem', margin: '0 0 1rem 0', background: 'linear-gradient(to right, #00f2fe, #4facfe)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-          Memory Lane Exercises
+          Deployment of Web Applications
         </h1>
         <p style={{ fontSize: '1.2rem', color: '#a0a0a0', maxWidth: '600px', margin: '0 auto 3rem auto', lineHeight: '1.6' }}>
           Welcome to my static website showcasing assignments for 1.6 and 2.6.
