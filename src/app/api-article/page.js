@@ -29,7 +29,7 @@ export default function ApiArticle() {
 
         <div style={{ position: 'relative', width: '100%', height: '400px', marginBottom: '2rem', borderRadius: '12px', overflow: 'hidden' }}>
           <Image 
-            src="/images/api_building_header.png" 
+            src="/1.6-exercise-site/images/api_building_header.png" 
             alt="API Building Header" 
             fill 
             style={{ objectFit: 'cover' }} 
